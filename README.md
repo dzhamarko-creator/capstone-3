@@ -35,9 +35,13 @@ The application supports browsing products by category, filtering products by pr
 - Admin-only category creation, update, and deletion
 
 
-<img src="Images/easyshopwebsite.jpg" width="700" alt="EasyShop Preview">
+Full SQL queries and proper row mapping
 
+<img src="Images/easyshopwebsite.jpg" width="500" alt="EasyShop Preview">
 
+Result: DAOs now return real data 
+Controllers behave correctly
+Tests passed
 
 
 
