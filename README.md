@@ -35,7 +35,8 @@ The application supports browsing products by category, filtering products by pr
 - Admin-only category creation, update, and deletion
 
 
-<img src="Images/easyshopwebsite.jpg" width="700" alt="EasyShop Preview">
+![EasyShop Preview](images/easyshopwebsite.jpg)
+
 
 
 
