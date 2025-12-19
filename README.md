@@ -55,9 +55,7 @@ This project involved identifying and fixing several backend issues, including:
 
 <img src="Images/rowmappingfix.jpg" width="700" alt="EasyShop Preview">
 
-## Result: DAOs now return real data 
--Controllers behave correctly,
--Tests passed
+## Result: DAOs now return real data, and controllers behave correctly. 
 
 ### ✅ Fixed Failing Tests & DAO Bugs
 - Corrected DAO method implementations that previously returned `null`
