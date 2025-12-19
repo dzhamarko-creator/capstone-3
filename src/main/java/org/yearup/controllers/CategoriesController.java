@@ -23,9 +23,7 @@ public class CategoriesController
         this.categoryDao = categoryDao;
     }
 
-    // -------------------------
-    // GET ALL CATEGORIES
-    // -------------------------
+  
     @GetMapping
     @PreAuthorize("permitAll()")
     public List<Category> getAll()
@@ -33,9 +31,7 @@ public class CategoriesController
         return categoryDao.getAllCategories();
     }
 
-    // -------------------------
-    // GET CATEGORY BY ID
-    // -------------------------
+
     @GetMapping("{id}")
     @PreAuthorize("permitAll()")
     public Category getById(@PathVariable int id)
@@ -48,9 +44,7 @@ public class CategoriesController
         return category;
     }
 
-    // -------------------------
-    // CREATE CATEGORY (ADMIN)
-    // -------------------------
+
     @PostMapping
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     @ResponseStatus(HttpStatus.CREATED) // 🔥 FIX #1
@@ -59,9 +53,7 @@ public class CategoriesController
         return categoryDao.create(category);
     }
 
-    // -------------------------
-    // DELETE CATEGORY (ADMIN)
-    // -------------------------
+
     @DeleteMapping("{id}")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     @ResponseStatus(HttpStatus.NO_CONTENT) // 🔥 FIX #2
