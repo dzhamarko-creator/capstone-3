@@ -16,7 +16,7 @@ The application supports browsing products by category, filtering products by pr
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 ### Product Management
 - Retrieve all products
@@ -44,7 +44,7 @@ The application supports browsing products by category, filtering products by pr
 
 ---
 
-## 🧠 Key Fixes & Improvements
+## ️️🕵️ Key Fixes & Improvements
 
 This project involved identifying and fixing several backend issues, including:
 
