@@ -51,13 +51,13 @@ The application supports browsing products by category, filtering products by pr
 
 This project involved identifying and fixing several backend issues, including:
 
-##Full SQL queries and proper row mapping
+## Full SQL queries and proper row mapping
 
 <img src="Images/rowmappingfix.jpg" width="700" alt="EasyShop Preview">
 
-Result: DAOs now return real data 
-Controllers behave correctly
-Tests passed
+-Result: DAOs now return real data 
+-Controllers behave correctly
+-Tests passed
 
 ### ✅ Fixed Failing Tests & DAO Bugs
 - Corrected DAO method implementations that previously returned `null`
