@@ -33,7 +33,7 @@ The application supports browsing products by category, filtering products by pr
 - Retrieve a category by ID
 - Retrieve products by category
 - Admin-only category creation, update, and deletion
-
+ <img src="images/easyshopwebsite.jpg" width="700" alt="EasyShop Preview">
 
 ### Authentication & Authorization
 - Role-based access control using Spring Security
