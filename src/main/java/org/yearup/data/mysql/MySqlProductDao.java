@@ -18,9 +18,6 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         super(dataSource);
     }
 
-    // ------------------------------------------------
-    // SEARCH PRODUCTS (INSOMNIA-COMPATIBLE)
-    // ------------------------------------------------
     @Override
     public List<Product> search(
             Integer categoryId,
@@ -70,9 +67,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         return products;
     }
 
-    // ------------------------------------------------
-    // LIST PRODUCTS BY CATEGORY
-    // ------------------------------------------------
+
     @Override
     public List<Product> listByCategoryId(int categoryId)
     {
@@ -100,9 +95,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         return products;
     }
 
-    // ------------------------------------------------
-    // GET PRODUCT BY ID
-    // ------------------------------------------------
+
     @Override
     public Product getById(int productId)
     {
@@ -126,9 +119,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         return null;
     }
 
-    // ------------------------------------------------
-    // CREATE PRODUCT
-    // ------------------------------------------------
+
     @Override
     public Product create(Product product)
     {
@@ -166,9 +157,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         return null;
     }
 
-    // ------------------------------------------------
-    // UPDATE PRODUCT
-    // ------------------------------------------------
+    
     @Override
     public void update(int productId, Product product)
     {
@@ -207,9 +196,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         }
     }
 
-    // ------------------------------------------------
-    // DELETE PRODUCT
-    // ------------------------------------------------
+   
     @Override
     public void delete(int productId)
     {
@@ -227,9 +214,7 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         }
     }
 
-    // ------------------------------------------------
-    // MAP RESULT SET → PRODUCT
-    // ------------------------------------------------
+   
     protected static Product mapRow(ResultSet row) throws SQLException
     {
         return new Product(
