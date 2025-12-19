@@ -35,7 +35,7 @@ The application supports browsing products by category, filtering products by pr
 - Admin-only category creation, update, and deletion
 
   
- <img src="Images/easyshopwebsite.jpg" width="400" height="300" alt="EasyShop Preview">
+ <img src="images/easyshopwebsite.jpg" width="400" height="300" alt="EasyShop Preview">
 
 ### Authentication & Authorization
 - Role-based access control using Spring Security
