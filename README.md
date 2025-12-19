@@ -54,6 +54,9 @@ The application supports browsing products by category, filtering products by pr
 
 This project involved identifying and fixing several backend issues, including:
 
+
+<img src="Images/rowmappingfix.jpg" width="700" alt="EasyShop Preview">
+
 ### ✅ Fixed Failing Tests & DAO Bugs
 - Corrected DAO method implementations that previously returned `null`
 - Ensured all DAOs properly map database rows to model objects
