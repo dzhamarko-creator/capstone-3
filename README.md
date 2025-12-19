@@ -2,7 +2,7 @@
 
 
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/src/main/resources/Images/easyshop.gif">
+<img src="./images/easyshop.gif" width="600" height="400" alt="EasyShop Preview">
 
 
 
