@@ -1,7 +1,7 @@
 
 
 
-<img src="Images/easyshop.gif" width="400" height="300" alt="EasyShop Preview">
+<img src="images/easyshop.gif" width="400" height="300" alt="EasyShop Preview">
 
 
 
